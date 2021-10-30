@@ -1,0 +1,200 @@
+/* CORPO*/
+header,nav,ul,li,main,a,section,h1,h2,h3,p,aside,img,article,
+footer,label,div{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, rgb(14, 14, 112),rgb(31, 29, 29));
+    color: white;
+}
+
+
+/* CABEÇALHO */
+header{
+    width: 55%;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+}
+nav{
+    margin: 20px 70px;
+    padding: 0 0 0 210px;
+}
+.listaNavegacao{
+    display: flex;
+}
+.listaNavegacao  li{
+    margin-right: 26px;
+}
+.listaNavegacao  li a{
+    color: black;
+    font-weight: bold;
+} 
+.listaNavegacao  li a:hover{
+    font-size: 20px;
+    color: darkblue;
+}
+
+
+/* CONTÉUDO PRINCIPAL */
+main{
+    margin: 0 25%;
+    margin-top: 45px;
+}
+
+/* introdução */
+.Introducao{
+
+}
+.Introducao h1{
+    color: white;
+    text-align: center;
+    margin-bottom: 12px;
+    font-size: 30px;
+}
+.Introducao p{
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: fantasy;
+}
+
+/* conteudo ao lado */
+.Referencias{
+    width: 300px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    padding: 10px;
+    color: black;
+    background: white;
+    position: fixed;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+.suporte{
+    width: 300px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    padding: 15px;
+    color: black;
+    background: white;
+    position: fixed;
+    bottom: 500px;
+    margin-left: 30px;
+}
+ aside h3{
+    margin-bottom: 5px;
+ }
+ aside p{
+    margin-bottom: 4px;
+ }
+ aside p a{
+    text-decoration-line: underline;
+    color: darkblue;
+ }
+ aside p a:hover{
+     font-weight: bold;
+ }
+
+ /* Blog */
+#Blog{
+    margin: 25px;
+    padding: 20px;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+}
+.assuntoBlog{
+    margin-bottom: 15px;
+}
+.assuntoBlog h2{
+    font-size: 20px;
+    color: darkblue;
+}
+.assuntoBlog hr{
+    background-color: darkblue;
+    height: 3px;
+}
+.assuntoBlog p{
+    font-size: 15px;
+    font-family: fantasy;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.listajogos{
+    display: flex;
+    margin-left: 15%;
+}
+.listajogos li{
+    margin-right: 10px;
+}
+.assuntoBlog .listajogos li img{
+    width: 100px;
+}
+.assuntoBlog .listajogos li img:hover{
+    width: 150px;
+    cursor: pointer;
+}
+
+
+/* RODAPÉ */
+footer{
+    width: 70%;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    margin-top: 35px;
+    margin-bottom: 45px;
+}
+#infor{
+    display: flex;
+}
+.Mais{
+    margin-right: 350px;
+    margin-left: 200px;
+}
+.Mais .Mais__lista{}
+.Mais__lista li{
+    margin-bottom: 10px
+}
+.Mais__lista li a{
+    font-size: 14px;
+    color: darkblue;
+    font-weight: bold;
+}
+
+.Midias{
+    margin-left: 200px;
+}
+.Midias .Midias__lista{}
+.Midias__lista li{
+    margin-bottom: 10px;
+}
+.Midias__lista li a{}
+.Midias__lista li a img{
+    width: 25px;
+    margin-right: 5px;
+    position: relative;
+}
+.Midias__lista li a label{
+    color: darkblue;
+    position: relative;
+    bottom: 5px;
+}
+
+.Midias__lista li a label:hover{
+    cursor: pointer;
+}
+
+#Copyright{
+    color: darkblue;
+    text-align: center;
+    margin-top: 20px;
+}
